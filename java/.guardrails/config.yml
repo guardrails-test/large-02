@@ -1,0 +1,11 @@
+enabled: true
+report:
+  pullRequest: "onAllFiles"
+notifications:
+  slack:
+    enabled: false
+bundles:
+  - java:
+    - spotbugs
+    - dependency-check
+  - general
